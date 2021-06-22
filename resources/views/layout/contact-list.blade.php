@@ -1,9 +1,10 @@
-@extends('layout.app')
+@extends('layouts.app')
 @section('content')
 <div class="row">
     <div class="col-md-8 col-md-offset-2 m-auto">
         <div class="contact-form">
             <h3>Contact List</h1>
+          <a class="btn-primary" href="{{url('contact')}}">Add Contact Us</a>
             <table class="table table-striped table-hover">
               <thead>
                 <tr>
